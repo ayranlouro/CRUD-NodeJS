@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+
+    <div class="container">
+        <h3 id="registerproduct" class="text-center">Register product</h3>
+        <!-- <i class="fab fa-product-hunt"></i> -->
+        <div class="row justify-content-center">
+            <div class="col col-md-6">
+                <form action="/apple" method="POST">
+                    <div class="form-group">
+                        <label for="productname2">Product Name</label>
+                        <input type="text" class="form-control" name="productname5" id="productname1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="productdescription2">Description</label>
+                        <input type="text" class="form-control" name="productdescription" id="productdescription1">
+                    </div>
+                    <div class="form-group">
+                        <label for="productamount2">Amount</label>
+                        <input type="text" class="form-control" name="productamount" id="productamount1">
+                    </div>
+                    <div class="form-group">
+                        <label for="productprovider2">Provider</label>
+                        <input type="text" class="form-control" name="productprovider" id="productprovider1">
+                    </div>
+                    <div class="form-group">
+                        <label for="productdate2">Date</label>
+                        <input type="date" class="form-control" name="productdate" id="productdate1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
